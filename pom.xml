@@ -76,7 +76,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>2.2.0</version>
 				<configuration>
-					<projectId>street-cat-test</projectId>
+					<projectId>street-cat-project-2</projectId>
 					<version>GCLOUD_CONFIG</version>
 				</configuration>
 			</plugin>
