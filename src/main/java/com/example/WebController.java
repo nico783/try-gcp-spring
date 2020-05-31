@@ -37,7 +37,7 @@ public class WebController {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
-	@GetMapping("/getTuples")
+	@GetMapping("/")
 	public List<String> getTuples() {
 		return this.jdbcTemplate.queryForList("SELECT * FROM users").stream()
 				.map((m) -> m.values().toString())
